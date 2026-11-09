@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Secrets — never commit real passwords
+.env
+!.env.example
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
